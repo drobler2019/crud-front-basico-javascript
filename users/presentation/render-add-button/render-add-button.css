@@ -1,0 +1,6 @@
+.fab-button {
+    background: green;
+    position: absolute;
+    inset-inline-end: 350px;
+    inset-block-start: 300px;
+}

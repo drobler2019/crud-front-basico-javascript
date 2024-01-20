@@ -1,0 +1,46 @@
+a {
+  text-decoration: none;
+}
+
+table {
+  background: rgb(0, 0, 0);
+  border-radius: 5px;
+  min-inline-size: 900px;
+  border-collapse: collapse;
+  thead {
+    background: #ff980a;
+  }
+  tbody {
+    background: #461d04;
+  }
+  th {
+    border: medium solid #ff8000;
+    padding: 10px;
+  }
+
+  a:first-child {
+    background: #ff980a;
+    display: inline-block;
+    inline-size: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    margin-inline-start: 10px;
+  }
+  a:last-child {
+    background: #823d0c;
+    color: #ffd16d;
+    inline-size: 100px;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+  }
+}
+
+.no-active {
+  background: #b10303;
+}
+
+.active {
+  background: #008b07;
+}
